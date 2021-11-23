@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Arial", sans-serif;
+  background: #fff;
+  padding: 40px 0;
+  color: #444;
+  height: 100%;
+}
+
+ol,
+ul {
+  margin: 0 0 50px 0;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  line-height: 1.6em;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 0;
+}
+p:last-child {
+  margin-bottom: 40px;
+}
+
+a {
+  font-weight: bold;
+  color: #8da6dd;
+  text-decoration: none;
+  transition: all 200ms;
+}
+a:hover, a:focus {
+  color: black;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #303947;
+  position: fixed;
+  padding: 15px;
+}
+nav a {
+  display: inline-flex;
+  padding: 20px 30px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover, nav a:focus {
+  color: white;
+}
+nav a.active {
+  color: #8da6dd;
+}
+
+.container {
+  max-width: 60%;
+}
+
+.titlepage {
+  padding-bottom: 20px;
+}
+
+.clinicr {
+  background: url(https://cdn.discordapp.com/attachments/582422645950382080/912812904720527430/clinicr_bg.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+}
+
+.vedio figure {
+  text-align: center;
+}
+
+.vedio figure img {
+  width: 40%;
+}
+
+.service {
+  background: url(https://cdn.discordapp.com/attachments/582422645950382080/912815615012634684/service.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 90px 0 90px 0;
+}
+
+.read_more {
+  font-size: 20px;
+  background-color: #000507;
+  color: #fff;
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 217px;
+  text-align: center;
+  display: inline-block;
+  transition: ease-in all 0.5s;
+  font-weight: 500;
+  height: 56px;
+}
+
+.read_more:hover {
+  background: #1296cc;
+  color: #fff;
+  transition: ease-in all 0.5s;
+}
+
+.service_box {
+  margin-bottom: 30px;
+}
+
+.service_box figure {
+  margin: 0;
+}
+
+.service_box figure img {
+  width: 100%;
+}
+
+.service_box h3 {
+  color: #1296cc;
+  font-size: 35px;
+  line-height: 30px;
+  padding: 30px 0 20px 0;
+}
+
+.service_box p {
+  font-size: 17px;
+  line-height: 30px;
+  color: #01010a;
+}
+
+.service .read_more {
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.contact {
+  background: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.contact .titlepage {
+  text-align: left;
+}
+
+.main_form {
+  font-family: "Open+Sans", sans-serif;
+}
+
+.main_form .contactus {
+  border: #fff solid 1px;
+  padding: 0px 30px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 76px;
+  background: #fff;
+  color: #010005;
+  font-size: 17px;
+  font-weight: normal;
+  box-shadow: 2px 0px 21px rgba(3, 3, 3, 0.24);
+  border-radius: 50px;
+}
+
+.main_form .textarea {
+  border: #fff solid 1px;
+  margin-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  color: #010005;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 35px 30px 0 30px;
+  box-shadow: 2px 0px 21px rgba(3, 3, 3, 0.24);
+  border-radius: 50px;
+  height: 102px;
+}
+
+.main_form .send_btn {
+  font-size: 26px;
+  transition: ease-in all 0.5s;
+  background-color: #02020b;
+  color: #fff;
+  max-width: 438px;
+  width: 100%;
+  display: block;
+  margin-top: 10px !important;
+  font-weight: 500;
+  height: 86px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.main_form .send_btn:hover {
+  background-color: #8da6dd;
+  transition: ease-in all 0.5s;
+  color: #fff;
+}
+
+#request *::placeholder {
+  color: #010005;
+  opacity: 1;
+}
+
+.padding_right0 {
+  padding-right: 0;
+}
+
+.padding_left0 {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */
